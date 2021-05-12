@@ -1,0 +1,80 @@
+:root {
+    font-family: "DotGothic16", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.heading .logo {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading naw a {
+    display: block;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: var(- - main - color)
+}
+
+.heading nav a:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 500px) {
+    .heading{
+        display: flex;
+    }
+
+    .heading nav {
+        display: flex
+        flex 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .heading nav a {
+        padding: 0 20px;
+    }
+
+header .banner {
+    background-image: url(..//baby-yoda.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.product-list article {
+    display: block;
+    width: 100;
+}
+
+.card-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.product-list article {
+    border: 1px solid var (--main-color);
+}
+
+.product-list article img {
+    display: block;
+    width: 100;
+}
+
+.product-list article div {
+    display: flex;
+    justify-content: space-around;
+}
